@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/home_image"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/laughing_image" />
+
+    <Button
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/home_image"
+        android:layout_marginTop="10dp"
+        android:text="@string/tell_joke"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:onClick="onTellJoke"/>
+
+
+</RelativeLayout>
